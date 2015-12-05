@@ -1,0 +1,14 @@
+@mixin font-face($style-name, $filepath) {
+  @font-face {
+    font-family: $style-name;
+    src: url($filepath + ".ttf") format("truetype");  }
+}
+
+@include font-face('Gothic','../fonts/gothic') ;
+@include font-face('GothicB','../fonts/gothicb') ;
+@include font-face('GothicBI','../fonts/gothicbi') ;
+@include font-face('GothicI','../fonts/gothici') ;
+
+$color-white: #fff;
+$color-grey: #888;
+$color-red:#f20000;

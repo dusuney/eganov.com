@@ -1,0 +1,30 @@
+.logo{
+  position:absolute;
+  z-index: 4;
+  width:1920px;
+  top:286px;
+  .name-man{
+    text-transform: uppercase;
+  }
+  .name-man{
+    color:$color-red;
+    font-size:56px;
+    margin-top: 22px;
+  }
+  .info-man{
+    color: $color-white;
+    font-size:16px;
+    padding-left: 90px;
+    margin-top: 30px;
+  }
+  .white-line{
+    width: 64px;
+    height: 3px;
+    background: $color-white;
+    margin-left: 170px;
+    margin-top: 22px;
+  }
+  img{
+    padding-left: 147px;
+  }
+}

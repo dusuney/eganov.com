@@ -1,2 +1,2 @@
 # eganov.com
-html + css template for a blog entrepreneur
+# html + css template for a blog entrepreneur

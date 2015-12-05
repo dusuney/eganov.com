@@ -1,0 +1,44 @@
+nav{
+  margin-top: 98px;
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+    li{
+      text-transform: uppercase;
+      float: left;
+      margin-left: 53px;
+      &:first-child{
+        margin-left: 0;
+      }
+      a{
+        transition: 0.15s ease-in;
+        color: $color-white;
+        &:hover{
+         color:$color-grey;
+        }
+      }
+    }
+}
+
+.lang-switch{
+  float:right;
+  text-transform: uppercase;
+  color:$color-grey;
+  a{
+    transition: 0.15s ease-in;
+    color: $color-grey;
+    &:hover{
+      color: $color-white;
+    }
+    &.active{
+      color: $color-white;
+    }
+  }
+}
+
+header{
+  position:absolute;
+  z-index: 4;
+  width:1920px;
+}
