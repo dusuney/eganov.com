@@ -1,0 +1,136 @@
+.contacts{
+  background: $color-bg4;
+  padding: 64px 0 64px 0;
+  h2{
+    margin-top: 0;
+  }
+  img{
+    margin-right: 8px;
+  }
+  form{
+    float:left;
+    input,textarea{
+      border: 2px solid $color-grey4;
+      color:$color-text-input;
+    }
+  }
+  .form, .block-social-networks{
+    //float:left;
+    display: inline-block;
+  }
+  .block-social-networks{
+    p.link{
+      padding-top: 8px;
+      margin:0;
+      &:first-child{
+        padding:0;
+      }
+    }
+  }
+  p.link{
+    color:$color-link;
+    padding-top: 24px;
+    font-size:16px;
+  }
+  .form{
+    margin-right: 13px;
+  }
+  .block-left,.block-right{
+    display: inline-block;
+  }
+  .block-left{
+    width: 230px;
+    float:left;
+    margin-right: 20px;
+    input{
+      border-radius: 0;
+      margin-top:32px;
+      font-size:15px;
+      &:first-child{
+        margin-top:0;
+      }
+    }
+    button{
+      text-transform: uppercase;
+      margin-top:32px;
+      color:$color-white;
+      font-size: 15px;
+    }
+  }
+  .block-right{
+    textarea{
+      font-size:15px;
+      width: 326px;
+      max-width:326px;
+      border-radius: 0;
+      height: 216px;
+      max-height:216px;
+    }
+  }
+  button{
+    background:$color-button-grey1;
+    width: 230px;
+    height: 60px;
+    border-radius: 2px;
+    &:hover{
+      background:$color-button-grey2;
+    }
+  }
+}
+
+footer{
+  position:relative;
+
+  .nav{
+    position:absolute;
+
+    width: 100%;
+    .logo{
+      position: relative;
+      display:block;
+      top:106px;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      img{
+        height:90px;
+        padding-left: 94px;
+      }
+      .name-man{
+        font-size:38px;
+      }
+    }
+    .navigation{
+      display: block;
+      margin-top: 140px;
+      width:438px;
+      margin-left: auto;
+      margin-right: auto;
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+      li{
+        text-transform: uppercase;
+        float: left;
+        margin-left: 53px;
+        &:first-child{
+          margin-left: 0;
+        }
+        a{
+          transition: 0.15s ease-in;
+          color: $color-white;
+          &:hover{
+            color:$color-grey;
+          }
+        }
+      }
+    }
+  }
+
+  .bg{
+    width:1920px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

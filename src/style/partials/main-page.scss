@@ -1,7 +1,7 @@
 .logo{
   position:absolute;
   z-index: 4;
-  width:1920px;
+  width:100%;
   top:286px;
   .name-man{
     text-transform: uppercase;
@@ -26,5 +26,159 @@
   }
   img{
     padding-left: 147px;
+  }
+}
+#carousel-example-generic{
+  width:1920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-man{
+  background:$color-bg1;
+  padding: 80px 0 92px 0;
+  .box-info{
+    background:$color-white;
+    border: 1px solid $color-grey2;
+    padding:22px 25px 22px 22px;
+    float:left;
+    img{
+      float:left;
+      margin-right:22px;
+    }
+    .citation{
+      text-align: right;
+    }
+    .line-red{
+      margin-left: 383px;
+    }
+    .about{
+      font-size:16px;
+      margin-top: 42px;
+      line-height: 30px;
+    }
+    h2{
+      margin-top: 58px;
+      color:$h2-black-color;
+    }
+  }
+}
+
+.about-project{
+  background:$color-bg4;
+  padding-top: 24px;
+  padding-bottom: 62px;
+  .citation{
+    float:right;
+    .text{
+      text-align: center;
+    }
+    .author{
+      text-align: right;
+    }
+  }
+  h2{
+    margin-top:92px;
+  }
+  h2,h3{
+    color:$h2-black-color;
+  }
+  .projects{
+    margin-top:40px;
+    .block{
+      background:$color-bg2;
+      width:308px;
+      margin-left: 25px;
+      display:inline-block;
+      float:left;
+      position:relative;
+
+      &:first-child{
+        margin-left: 0;
+      }
+      .info{
+        padding: 0 22px 40px 25px;
+        height: 430px;
+      }
+      h3{padding-top:50px; margin:0;}
+      p{
+        margin-top: 70px;
+        font-size:16px;
+        line-height: 32px;
+      }
+      .hover-block{
+        position:absolute;
+        height: 198px;
+        width: 308px;
+        top:0;
+        transition: 0.25s ease-in;
+        opacity: 0;
+        &:hover{
+          background-color:rgba(12,23,27,0.7);
+          opacity: 1;
+        }
+        .text{
+          text-transform: uppercase;
+          border-radius: 2px;
+          color:$color-white;
+          border:1px solid $color-white;
+          padding: 15px 26px;
+          margin: 72px;
+          letter-spacing: 3px;
+        }
+      }
+    }
+  }
+}
+
+.about-blog{
+  background:$color-bg3;
+  padding: 85px 0 10px 0;
+  h2,h3{
+    color:$h2-grey-color;
+    margin: 0;
+  }
+  h3{
+    transition: 0.15s ease-in;
+    &:hover{
+      color:$color-white;
+    }
+  }
+  .block{
+    padding:62px 0 62px 0;
+    &:nth-child(2){
+      margin-top: 50px;
+    }
+
+    &:nth-child(2n){
+      background:$color-row-bg4;
+    }
+    img{
+      float: left;
+      margin-right: 28px;
+      display:inline-block;
+    }
+    .line-red{
+      margin-right: 22px;
+      display: inline-block;
+    }
+    .info{
+      color:$h2-grey-color;
+      display: inline-block;
+      .category,.date{
+        display: inline-block;
+        margin: 0 4px 0 4px;
+      }
+    }
+    p{
+      line-height: 28px;
+      font-size: 16px;
+      color:$p-color;
+      margin-top: 35px;
+    }
+    .text-container{
+      display: inline-block;
+      width:636px;
+    }
   }
 }

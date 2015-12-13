@@ -1,15 +1,52 @@
 html {
   font-family: 'Gothic';
 }
-h1,p,li,a {
-  font-family: 'Gothic';
+body{
+  overflow-x: hidden;
 }
+h1,h2,h3,p,li,a,input,textarea,button {
+  font-family: 'Gothic';
+  transition: 0.15s ease-in;
+}
+h2{
+  font-size:24px;
+  text-transform: uppercase;
+  font-family: 'GothicB';
+}
+h3{
+  font-size:24px;
+  font-family: 'GothicB';
+}
+
 li{list-style: none;}
 
 a:hover{
   text-decoration: none;
 }
 
+a.link{
+  color:$color-link;
+  &:hover{
+    color:$color-link-hover;
+  }
+}
+
 .container{
   width: 978px;
+  padding:0;
+}
+
+.line-red{
+  width: 36px;
+  height: 5px;
+  background:$color-red;
+  margin-top:21px;
+}
+
+.citation{
+  font-size: 15px;
+  font-style:italic;
+  .author{
+    font-style: normal;
+  }
 }

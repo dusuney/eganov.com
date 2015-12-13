@@ -10,5 +10,34 @@
 @include font-face('GothicI','../fonts/gothici') ;
 
 $color-white: #fff;
+
 $color-grey: #888;
-$color-red:#f20000;
+$color-grey2:#c7c7c7;
+$color-grey3:#3a3a3a;
+$color-grey4:#b7b7b7;
+$color-text-input: #52504e;
+
+$color-red:#f20000; // red line
+
+$color-bg1:#f2eded; // about-me
+
+$color-bg5:#e6e3e3; // projects
+$color-bg2:#dfdbdb; // block in projects
+
+$color-bg3:#2f2e36; // blog
+$color-row-bg4:#39383f; // row in blog
+
+$color-bg4:#f6f1ea; // contacts
+
+$h2-black-color:#393838; // blog
+$h2-grey-color:#949393; // blog
+
+$p-color:#e6e6e6; // blog
+
+$color-link:#0267f6;
+$color-link-hover:#84b2f3;
+
+$color-hover-block:#0c171b;
+
+$color-button-grey1:#4d4d4d;
+$color-button-grey2:#636262;
