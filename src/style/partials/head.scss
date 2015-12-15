@@ -42,3 +42,26 @@ header{
   z-index: 4;
   width:100%;
 }
+
+.logo.main{
+  top: 188px;
+  a{
+    float:left;
+    img{
+      padding:0;
+      margin-right: 10px;
+    }
+  }
+  p.name-man{
+    margin-top: 0;
+    font-size:42px;
+  }
+  p.info-man{
+    margin-top: 10px;
+  }
+  .white-line{
+    width: 50px;
+    margin-top: 0;
+    margin-left: 134px;
+  }
+}

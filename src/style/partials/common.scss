@@ -42,7 +42,13 @@ a.link{
   background:$color-red;
   margin-top:21px;
 }
-
+.white-line{
+  width: 64px;
+  height: 3px;
+  background: $color-white;
+  margin-left: 170px;
+  margin-top: 22px;
+}
 .citation{
   font-size: 15px;
   font-style:italic;
