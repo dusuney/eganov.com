@@ -1,0 +1,116 @@
+.about-project.custom{
+  background:$color-bg1;
+  padding-bottom: 0;
+  h2{
+    margin-top:92px;
+  }
+  h2,h3{
+    color:$h2-black-color;
+  }
+  .projects {
+    margin-top: 40px;
+    .block {
+      background: none;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 48px;
+      display: block;
+      float: left;
+      position: relative;
+      padding-bottom: 16px;
+      &:first-child{
+        margin-top:0;
+      }
+      .img{
+        float:left;
+        margin-right: 20px;
+        a{
+          font-size:16px;
+          display: block;
+          margin:20px 0 10px 60px;
+        }
+      }
+
+      .info {
+        padding: 0;
+        height: inherit;
+      }
+      h3 {
+        padding-top: 0px;
+        margin: 0;
+      }
+      p {
+        margin-top: 38px;
+        font-size: 16px;
+        line-height: 32px;
+      }
+      button.button-grey{
+        float:right;
+
+      }
+      border-bottom:1px solid $color-grey4;
+      .bottom-block{
+        display: block;
+        width: 100%;
+        float: left;
+      }
+    }
+  }
+}
+
+.graphics{
+  float:left;
+  padding-bottom: 20px;
+  img.graphics{
+    margin-top: 90px;
+  }
+  .table{
+    margin-top: 74px;
+    table{
+      border-collapse: collapse;
+      th,td{
+        text-align: center;
+        border: 1px solid #b3b3b3;
+        font-family:'Gothic';
+        font-size:20px;
+        height: 56px;
+        width: 246px;
+      }
+      th{
+        background:#4d4d4d;
+        color:$color-white;
+        font-family:'GothicB';
+      }
+      td{
+        background:#d6d4d4;
+      }
+    }
+  }
+}
+
+.my-fails{
+  padding:0 0 56px 0;
+  background:#d6d4d4;
+  h2{
+    margin-top:112px;
+  }
+  h3{
+    margin:60px 0 0 0 ;
+  }
+  p{
+    margin-top: 40px;
+    font-size:16px;
+  }
+  .citation{
+    float:right;
+    margin-top: 28px;
+    .text{
+      margin-top: 0;
+      text-align: center;
+    }
+    .author{
+      margin-top: 10px;
+      text-align: right;
+    }
+  }
+}

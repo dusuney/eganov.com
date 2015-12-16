@@ -1,0 +1,13 @@
+button.button-grey{
+  background:$color-button-grey1;
+  width: 256px;
+  height: 54px;
+  border-radius: 2px;
+  color:$color-white;
+  text-transform: uppercase;
+  border:none;
+  &:hover{
+    background:$color-button-grey2;
+  }
+
+}
