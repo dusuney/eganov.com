@@ -10,7 +10,9 @@
 @import "partials/variable";
 @import "partials/common";
 @import "partials/head";
-@import "partials/main-page";
 @import "partials/footer";
 @import "partials/about";
-@import "partials/about-page";
+@import "partials/pages/main-page";
+@import "partials/pages/about-page";
+@import "partials/pages/blog-page";
+@import "partials/ui/pagination";

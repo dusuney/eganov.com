@@ -12,6 +12,7 @@
     input,textarea{
       border: 2px solid $color-grey4;
       color:$color-text-input;
+      background:$color-bg4;
     }
   }
   .form, .block-social-networks{
@@ -72,6 +73,7 @@
     width: 230px;
     height: 60px;
     border-radius: 2px;
+    letter-spacing: 3px;
     &:hover{
       background:$color-button-grey2;
     }
