@@ -1,0 +1,19 @@
+.page-404{
+  background:$color-bg3;
+  padding:160px 0 175px 0;
+  img{
+    float:left;
+    margin-right: 64px;
+  }
+  h2{
+    color:$color-red;
+    text-transform: none;
+    font-size:60px;
+    font-family:'Gothic';
+    margin-top: 124px;
+  }
+  p{
+    color:$color-white;
+    font-size:35px;
+  }
+}
