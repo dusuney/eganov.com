@@ -1,9 +1,10 @@
-nav{
-  margin-top: 98px;
-  ul{
-    margin: 0;
-    padding: 0;
-  }
+.navigation{
+  nav{
+    margin-top: 98px;
+    ul{
+      margin: 0;
+      padding: 0;
+    }
     li{
       text-transform: uppercase;
       float: left;
@@ -15,10 +16,17 @@ nav{
         transition: 0.15s ease-in;
         color: $color-white;
         &:hover{
-         color:$color-grey;
+          color:$color-grey;
         }
       }
     }
+  }
+}
+
+.bg-head{
+  width:1920px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .lang-switch{

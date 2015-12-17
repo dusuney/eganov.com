@@ -4,7 +4,7 @@ html {
 body{
   overflow-x: hidden;
 }
-h1,h2,h3,p,li,a,input,textarea,button {
+h1,h2,h3,h4,p,li,a,input,textarea,button {
   font-family: 'Gothic';
   transition: 0.15s ease-in;
 }
@@ -17,6 +17,10 @@ h3{
   font-size:24px;
   font-family: 'GothicB';
 }
+h4{
+  font-size:16px;
+  font-family: 'GothicB';
+}
 
 li{list-style: none;}
 
@@ -27,7 +31,8 @@ a:hover{
 a.link{
   color:$color-link;
   &:hover{
-    color:$color-link-hover;
+    //color:$color-link-hover;
+    text-decoration: underline;
   }
 }
 
@@ -83,6 +88,29 @@ a.link{
     h2{
       margin-top: 58px;
       color:$h2-black-color;
+    }
+  }
+}
+
+.table{
+  margin-top: 74px;
+  table{
+    border-collapse: collapse;
+    th,td{
+      text-align: center;
+      border: 1px solid #b3b3b3;
+      font-family:'Gothic';
+      font-size:20px;
+      height: 56px;
+      width: 246px;
+    }
+    th{
+      background:#4d4d4d;
+      color:$color-white;
+      font-family:'GothicB';
+    }
+    td{
+      background:#d6d4d4;
     }
   }
 }

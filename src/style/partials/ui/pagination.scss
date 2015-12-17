@@ -11,6 +11,7 @@
     a{
       color:$color-black2;
       text-decoration: none;
+      font-family:'GothicI';
       &:hover{
         color:$color-grey;
       }
@@ -23,6 +24,7 @@
     margin-left: 18px;
   }
   .page{
+    font-family:'GothicI';
     width: 56px;
     height: 56px;
     border-radius: 50%;
